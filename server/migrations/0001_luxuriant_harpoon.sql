@@ -1,0 +1,1 @@
+ALTER TABLE "pots" RENAME TO "posts";
