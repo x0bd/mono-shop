@@ -15,6 +15,13 @@
       "when": 1717404396758,
       "tag": "0001_luxuriant_harpoon",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1717420618666,
+      "tag": "0002_tan_spot",
+      "breakpoints": true
     }
   ]
 }
