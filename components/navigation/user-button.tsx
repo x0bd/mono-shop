@@ -1,7 +1,7 @@
 "use client";
 
-import { signOut } from "@/server/auth";
 import { Session } from "next-auth";
+import { signOut } from "next-auth/react";
 
 export const UserButton = ({ user }: Session) => {
 	return (
