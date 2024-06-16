@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils";
 
 const inter = Inter({ subsets: ["latin"] });
 
+// Add Some Bit Of Japanese
 export const metadata: Metadata = {
 	title: "MONO",
 	description: "Your Neo-Tokyo Shop",
