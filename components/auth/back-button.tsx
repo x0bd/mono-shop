@@ -11,7 +11,7 @@ export const BackButton = ({
 	label: string;
 }) => {
 	return (
-		<Button variant="default" className="font-medium">
+		<Button variant="default" className="font-medium w-full">
 			<Link href={href} aria-label={label}>
 				{label}
 			</Link>

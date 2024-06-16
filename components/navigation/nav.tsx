@@ -4,6 +4,8 @@ import Link from "next/link";
 import { Button } from "../ui/button";
 import { LogInIcon } from "lucide-react";
 
+// TODO Write the logo in japanese
+
 export default async function Nav() {
 	const session = await auth();
 
@@ -11,7 +13,14 @@ export default async function Nav() {
 		<header className="py-8">
 			<nav>
 				<ul className="flex justify-between">
-					<li>MONO</li>
+					<li>
+						<Link
+							className="font-mono font-medium text-3xl"
+							href={"/"}
+						>
+							mono
+						</Link>
+					</li>
 					{!session ? (
 						<li>
 							<Button asChild>
