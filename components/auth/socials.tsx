@@ -4,7 +4,8 @@
 
 import { signIn } from "next-auth/react";
 import { Button } from "../ui/button";
-import { GithubIcon } from "lucide-react";
+import { FaGithub } from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
 
 export default function Socials() {
 	return (
@@ -17,7 +18,7 @@ export default function Socials() {
 				}
 			>
 				<p>Sign in with Google</p>
-				<GithubIcon className="w-5 h-5" />
+				<FcGoogle className="w-5 h-5" />
 			</Button>
 			<Button
 				variant={"outline"}
@@ -27,7 +28,7 @@ export default function Socials() {
 				}
 			>
 				<p>Sign in with GitHub</p>
-				<GithubIcon className="w-5 h-5" />
+				<FaGithub className="w-5 h-5" />
 			</Button>
 		</div>
 	);
