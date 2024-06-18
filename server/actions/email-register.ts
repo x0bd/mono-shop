@@ -2,12 +2,13 @@
 
 import { RegisterSchema } from "@/types/register-schema";
 import { createSafeActionClient } from "next-safe-action";
-import bcrypt from "bcrypt";
 import { db } from "..";
 import { eq } from "drizzle-orm";
 import { users } from "../schema";
 
 const action = createSafeActionClient();
+
+const bcrypt = require("bcrypt");
 
 export const emailRegister = action
 	.schema(RegisterSchema)
