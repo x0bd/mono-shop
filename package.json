@@ -1,6 +1,7 @@
 {
 	"name": "mono-shop",
 	"version": "0.1.0",
+	"description": "a tiny tokyo based mechanical keyboard shop for the classy collector",
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",

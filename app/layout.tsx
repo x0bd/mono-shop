@@ -22,7 +22,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body
 				className={cn(
-					"px-6 md:px-12 mx-auto max-w-7xl",
+					"px-6 md:px-12 mx-auto max-w-5xl",
 					`${inter.className}`
 				)}
 			>
